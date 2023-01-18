@@ -16,3 +16,7 @@
 # true
 
 p "Enter one word"
+word_input = gets.chomp.downcase
+
+# You do not need an if statement for this
+p(word_input == word_input.reverse)
